@@ -46,11 +46,35 @@
     margin: 3.5%;
     color:#fff;
     font-size:18px;
-    line-height: 1.3;
+    line-height: 1.2;
 }
 
 .hero-cta h2{
     font-style: italic;
     font-size:55px;
     color:#fce138
+}
+
+/*media query for smaller desktop screens and smaller*/
+@media screen and (max-width:980px){
+    header h1 a{
+        /*this will be applied on any screen smaller than 980px*/
+        color:tomato;
+    }
+}
+
+/*media query for tablets and smaller*/
+@media screen and (max-width:768px){
+    header h1 {
+        /*this will be applied on any screen between 768px and 575px*/
+        font-size: 80px;
+    }
+}
+
+/*media query for mobile phones and smaller*/
+@media screen and (max-width:575px){
+    header h1 {
+        /*this will be applied on any screen smaller than 575px*/
+        font-size: 100px;
+    }
 }

@@ -43,7 +43,7 @@ header nav ul{
 }
 
 header nav ul li a{
-    margin: 0 30px;
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
 }
@@ -81,6 +81,7 @@ section{
  background-image: url("../image/hero-bg.jpg");
  background-size: cover;
  background-position: center;
+ align-items: flex-start;
 }
 
 .hero-form {
@@ -159,7 +160,7 @@ section{
 }
 
 .section-title{
-    font-size: 55px;
+    font-size: 48px;
     color:#024e76;
     border-bottom: 3px solid;
     text-align:center;
