@@ -52,17 +52,18 @@ footer{
     background-color: #fce138;
     width: 100%;
     padding: 40px 35px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
 }
 
 footer h2{
-    display: inline;
     color: #024e76;
     font-size: 30px;
     margin: 0;
 }
 
 footer div{
-    float: right;
     line-height: 1.5;
     text-align: right;
 }
@@ -76,23 +77,31 @@ section{
     
 }
 
+/* h2{
+    font-size: 55px;
+    color:#024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color:#fce138
+} */
+
 .hero {
  background-image: url("../image/hero-bg.jpg");
- height: 600px;
  background-size: cover;
  background-position: center;
- position: relative;
 }
 
 .hero-form {
     background-color:#fce138;
     padding: 20px;
-    width: 500px;
     color: #024e76;
     border: solid 3px #024e76;
-    position: absolute;
-    bottom:120px;
-    right:140px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    width:40%;
+    margin:3.5%;
 }
 
 .hero-form h3{
@@ -130,14 +139,15 @@ section{
     text-align: center;
 }
 
-h2{
+/* h2{
     font-size: 55px;
-    color:#024e76;
+    color:#760202;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
     border-color:#fce138
-}
+}*/
+
 .intro h2{
     /*add this alongside your other decorations*/
      /* and this one */
