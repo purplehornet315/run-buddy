@@ -52,7 +52,8 @@
 .hero-cta h2{
     font-style: italic;
     font-size:55px;
-    color:#fce138
+    color:#fce138;
+    text-shadow:0 0 10px rgba(0,0,0,0.5);
 }
 
 /*media query for smaller desktop screens and smaller*/
@@ -60,6 +61,7 @@
    header:{
        padding-bottom:0;
        justify-content: center;
+       position: relative;
    }
    header h1{
        width:100%;
